@@ -2,14 +2,14 @@
   "name": "kiwee/storefront-build-config",
   "description": "Updates storefront build config to load it from instead of database.",
   "type": "shopware-platform-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
-      "name": "Kiwee sp. z o.o. sp.k."
+      "name": "Kiwee Software sp. z o.o."
     }
   ],
   "require": {
-    "shopware/core": "~6.4"
+    "shopware/storefront": "^6.5"
   },
   "license": "MIT",
   "autoload": {
@@ -19,7 +19,7 @@
   },
   "extra": {
     "shopware-plugin-class": "Kiwee\\KiweeStorefrontBuildConfig\\KiweeStorefrontBuildConfig",
-    "copyright": "Kiwee sp. z o.o. sp.k.",
+    "copyright": "Kiwee Software sp. z o.o.",
     "label": {
       "de-DE": "KiweeStorefrontBuildConfig",
       "en-GB": "KiweeStorefrontBuildConfig"
