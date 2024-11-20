@@ -1,0 +1,14 @@
+name: Validate
+
+on: push
+
+jobs:
+  composer_validate:
+    name: composer validate
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: php-actions/composer@v6
+      with:
+        command: validate
+        args: --strict
