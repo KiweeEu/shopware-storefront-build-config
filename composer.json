@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "shopware/storefront": "^6.5"
+    "shopware/storefront": "^6.6.10"
   },
   "license": "MIT",
   "autoload": {
