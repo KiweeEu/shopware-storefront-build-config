@@ -5,3 +5,7 @@
 # 1.0.1
 
 * Added compatibility with Shopware >= 6.6.10.0
+
+# 1.1.0
+
+* Added compatibility with Shopware 6.7
